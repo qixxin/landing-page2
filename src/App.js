@@ -1,16 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
 import { makeStyles } from '@material-ui/core/styles'
 import {CssBaseline} from "@material-ui/core";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-
+import Background from "./forestroad.jpg";
 
 
 const useStyles = makeStyles((theme) => ({
     root:{
         minHeight: '100vh',
-        backgroundImage: `url(${process.env.PUBLIC_URL + '/assets/forestroad.jpg'})`,
+        backgroundImage: `url(${Background})`,
         backgroundRepeat: 'no-repeat',
         backgroundSize:'cover',
     },
