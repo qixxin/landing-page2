@@ -39,7 +39,7 @@ const useStyles = makeStyles((theme) => ({
     },
     title: {
         color: '#fff',
-        fontSize: '3rem',
+        fontSize: '2.5rem',
     },
     goDown: {
         color: '#5AFF3D',
@@ -77,7 +77,7 @@ export default function Header() {
             >
                 <div className={classes.container}>
                     <h1 className={classes.title}>
-                        Road towards a <br />
+                        Road towards an <br />
                         interconnected <span className={classes.colorText}>Green< /span> future
                     </h1>
                     {/*<Scroll to="place-to-visit" smooth={true}>
